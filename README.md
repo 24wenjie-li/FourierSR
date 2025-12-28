@@ -18,7 +18,7 @@ The test set including Set5, Set14, B100, Urban100, Manga109, which can be downl
 
 The code and datasets need satisfy the following structures:
 ```
-├── DMNet  					# Train / Test Code
+├── FourierSR  			# Train / Test Code
 ├── dataset  					# all datasets for this code
 |  └── DIV2K_decoded  		#  train datasets with npy format
 |  |  └── DIV2K_train_HR  		
