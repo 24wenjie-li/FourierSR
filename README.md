@@ -53,6 +53,8 @@ Pretrained models can be found in <a href="">experiments</a>.
 ### Train
 
 ```
+###  As EDSR as a sample  ###
+
 # For X2
 python3 main.py --model edsr_fre --scale 2 --patch_size 96 --extra_loss --save Offical_EDSRfrex2
 
@@ -66,6 +68,8 @@ python3 main.py --model edsr_fre --scale 4 --patch_size 192 --extra_loss --save 
 ### Test
 
 ```
+###  As EDSR as a sample  ###
+
 # For X2
 python3 main.py --model edsr_fre --scale 2 --data_test Set5+Set14+B100+Urban100+Manga109 --save_results --save test_results/EDSRfrex2_results --pre_train ../experiment/Offical_EDSRfrex2/edsr_fre_x2.pt
 
